@@ -1,6 +1,9 @@
 import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import supabase from "../../config/supabaseClient";
+import QuoteRefreshArrow from "./QuoteRefreshArrow";
+import QuoteBlock from "./QuoteBlock";
+import QuoteLoading from "./QuoteLoading";
 
 const QuoteContainer = () => {
   const [quoteArr, setQuoteArr] = useState<null | any[]>(null);
@@ -16,7 +19,6 @@ const QuoteContainer = () => {
         setQuoteArr(null);
       } else {
         setQuoteArr(data);
-        console.log(data);
 
         if (data.length > 0) {
           const randomIndex = Math.floor(Math.random() * data.length);
@@ -28,21 +30,27 @@ const QuoteContainer = () => {
     fetchDatabase();
   }, []);
 
+  const refreshQuote = () => {
+    if (quoteArr && quoteArr.length > 0) {
+      const randomIndex = Math.floor(Math.random() * quoteArr.length);
+      setRandomIndex(randomIndex);
+    }
+  };
+
   return (
-    <Box
-      position={"absolute"}
-      // ----- ----- -----
-      color={"white"}
-      // ----- ----- -----
-      left={"50%"}
-      top={"50%"}
-      sx={{
-        transform: "translate(-50%, -50%)",
-      }}>
+    <Box>
       {quoteArr !== null && randomIndex !== null ? (
-        <Box>"{quoteArr[randomIndex].content}"</Box>
+        <>
+          <QuoteBlock
+            author={quoteArr[randomIndex].authors.name}
+            // author={quoteArr[35].authors.name}
+            quote={quoteArr[randomIndex].content}
+            // quote={quoteArr[35].content}
+          />
+          <QuoteRefreshArrow refreshQuote={refreshQuote} />
+        </>
       ) : (
-        <Box>Loading...</Box>
+        <QuoteLoading />
       )}
     </Box>
   );
