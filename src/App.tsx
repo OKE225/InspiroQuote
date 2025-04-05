@@ -6,7 +6,7 @@ import QuoteContainer from "./components/quote/QuoteContainer";
 
 function App() {
   return (
-    <Box bgcolor={"#000815"} width="100%" height="100vh">
+    <Box bgcolor={"#00040b"} width="100%" height="100vh">
       <nav>
         <PageHeader>InspiroQuote</PageHeader>
         <AuthorInfo />

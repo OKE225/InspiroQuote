@@ -1,33 +1,20 @@
-import { Box, Link, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
-
-import GitHubIcon from "@mui/icons-material/GitHub";
-import MessageIcon from "@mui/icons-material/Message";
+import Icons from "./Icons";
 
 const AuthorInfo = () => {
   return (
     <Box position={"absolute"} right={15} top={10}>
-      <Box
-        display={"flex"}
-        color={"#0071E1"}
-        justifyContent={"center"}
-        mb={0.5}>
-        <Link
-          href="https://www.google.pl/?hl=pl"
-          width={24}
-          height={24}
-          mr={0.75}>
-          <GitHubIcon />
-        </Link>
-        <Link
-          href="https://www.google.pl/?hl=pl"
-          width={24}
-          height={24}
-          ml={0.75}>
-          <MessageIcon />
-        </Link>
-      </Box>
-      <Typography variant="h6" color="#023E7D">
+      <Icons />
+      <Typography
+        variant="h6"
+        color="#023E7D"
+        sx={{
+          transition: "all 0.1s ease-in-out ",
+          "&:hover": {
+            color: "#0180ff",
+          },
+        }}>
         by oke
       </Typography>
     </Box>

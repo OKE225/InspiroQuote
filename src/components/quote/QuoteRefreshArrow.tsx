@@ -19,7 +19,7 @@ const QuoteRefreshArrow: React.FC<Props> = ({ refreshQuote }) => {
         transform: "translate(-50%, -50%)",
       }}>
       <RefreshIcon
-        sx={{ fontSize: 52, color: "#0071E1", cursor: "pointer" }}
+        sx={{ fontSize: 52, color: "#0180ff", cursor: "pointer" }}
         onClick={() => {
           refreshQuote();
         }}

@@ -9,7 +9,7 @@ const PageHeader: React.FC<Props> = ({ children }) => {
   return (
     <Typography
       variant="h5"
-      color="#0071E1"
+      color="#0180ff"
       position={"absolute"}
       left={15}
       top={10}>
