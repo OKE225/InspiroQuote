@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/InspiroQuote/static/css/main.e6c13ad2.css",
-    "main.js": "/InspiroQuote/static/js/main.03aac523.js",
+    "main.css": "/InspiroQuote/static/css/main.f146e43b.css",
+    "main.js": "/InspiroQuote/static/js/main.14933510.js",
     "static/js/952.95506bc1.chunk.js": "/InspiroQuote/static/js/952.95506bc1.chunk.js",
     "index.html": "/InspiroQuote/index.html",
-    "main.e6c13ad2.css.map": "/InspiroQuote/static/css/main.e6c13ad2.css.map",
-    "main.03aac523.js.map": "/InspiroQuote/static/js/main.03aac523.js.map",
+    "main.f146e43b.css.map": "/InspiroQuote/static/css/main.f146e43b.css.map",
+    "main.14933510.js.map": "/InspiroQuote/static/js/main.14933510.js.map",
     "952.95506bc1.chunk.js.map": "/InspiroQuote/static/js/952.95506bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.03aac523.js"
+    "static/css/main.f146e43b.css",
+    "static/js/main.14933510.js"
   ]
 }
