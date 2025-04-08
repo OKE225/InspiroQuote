@@ -8,7 +8,7 @@ const Icons = () => {
   return (
     <Box display={"flex"} justifyContent={"center"} mb={0.5}>
       <Link
-        href="https://www.google.pl/?hl=pl"
+        href="https://github.com/OKE225"
         color={"#023E7D"}
         width={24}
         height={24}
@@ -22,7 +22,7 @@ const Icons = () => {
         <GitHubIcon />
       </Link>
       <Link
-        href="https://www.google.pl/?hl=pl"
+        href="https://discord.com/users/676854872678858771"
         color={"#023E7D"}
         width={24}
         height={24}
