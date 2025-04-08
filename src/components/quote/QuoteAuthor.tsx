@@ -7,7 +7,13 @@ type Props = {
 
 const QuoteAuthor: React.FC<Props> = ({ author }) => {
   return (
-    <Typography variant="h5" color="#023E7D" ml={3}>
+    <Typography
+      variant="h5"
+      color="#023E7D"
+      fontSize={{
+        xs: "20px",
+        sm: "24px",
+      }}>
       {author}
     </Typography>
   );

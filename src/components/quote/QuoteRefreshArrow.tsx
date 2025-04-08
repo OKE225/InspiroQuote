@@ -12,7 +12,13 @@ const QuoteRefreshArrow: React.FC<Props> = ({ refreshQuote }) => {
       textAlign={"center"}
       position={"absolute"}
       left={"50%"}
-      bottom={"20%"}
+      bottom={{
+        xs: "2%",
+        sm: "5%",
+        md: "5%",
+        lg: "7.5%",
+        xl: "12.5%",
+      }}
       width={"52px"}
       height={"52px"}
       sx={{

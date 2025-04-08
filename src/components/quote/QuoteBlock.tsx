@@ -16,7 +16,16 @@ const QuoteBlock: React.FC<Props> = ({ author, quote }) => {
       top={"50%"}
       sx={{
         transform: "translate(-50%, -50%)",
-      }}>
+      }}
+      width={{
+        xs: "95%",
+        sm: "90%",
+        md: "85%",
+        lg: "80%",
+        xl: "60%",
+      }}
+      maxWidth={`${1920 * 0.6}px`}
+      textAlign={"center"}>
       <Quote quote={quote} />
       <QuoteAuthor author={author} />
     </Box>

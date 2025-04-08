@@ -43,9 +43,7 @@ const QuoteContainer = () => {
         <>
           <QuoteBlock
             author={quoteArr[randomIndex].authors.name}
-            // author={quoteArr[35].authors.name}
             quote={quoteArr[randomIndex].content}
-            // quote={quoteArr[35].content}
           />
           <QuoteRefreshArrow refreshQuote={refreshQuote} />
         </>
