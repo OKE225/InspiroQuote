@@ -1,11 +1,11 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import Icons from "./Icons";
+import IconsGroup from "./IconsGroup";
 
 const AuthorInfo = () => {
   return (
     <Box position={"absolute"} right={15} top={10}>
-      <Icons />
+      <IconsGroup />
       <Typography
         variant="h6"
         color="#023E7D"
