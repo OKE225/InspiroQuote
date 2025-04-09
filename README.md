@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+# 💡 InspiroQuote
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub License](https://img.shields.io/github/license/OKE225/InspiroQuote?style=for-the-badge&labelColor=red&color=tomato)
+![GitHub repo size](https://img.shields.io/github/repo-size/OKE225/InspiroQuote?style=for-the-badge&label=size&labelColor=goldenrod&color=yellow)
+![Static Badge](https://img.shields.io/badge/OKE225-blue?style=for-the-badge&label=Author&labelColor=steelblue)
 
-## Available Scripts
+The website, built using React and TypeScript, shows a quote and its author. This information comes from a PostgreSQL database hosted in Supabase. The site allows you to change the quote using a button. The project uses the Material UI (MUI) library, which provides a nice look. Additionally, the site is fully responsive, making it easy to use on different devices.
 
-In the project directory, you can run:
+![InspiroQuote Website](./src/assets/docs/inspiro_quote.png)
 
-### `npm start`
+[**➥ Live**](https://oke225.github.io/InspiroQuote/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ⚙️ Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- TypeScript
+- MUI - Material UI
+- PostgreSQL
+- Supabase
+- Sass
 
-### `npm test`
+## 💻 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Display and change quotes** - The website shows a quote with it is author and let's you change the quote using a button.
+- **Material UI (MUI) design** - The website uses Material UI for a modern and nice look.
+- **PostgreSQL database integration** - Quotes and authors are taken from a PostgreSQL database hosted in Supabase.
+- **Responsive design** - The website works well on computers, tablets, and smartphones.
 
-### `npm run build`
+## 📘 Local Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Open your terminal and clone the GitHub repository using:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/OKE225/InspiroQuote.git
+   ```
 
-### `npm run eject`
+2. **Install Dependencies:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   Navigate to the project directory:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd InspiroQuote
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   Then install all dependencies using npm or yarn:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+   or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   yarn install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Start the Application:**
+
+   To run the application locally, use:
+
+   ```bash
+   npm start
+   ```
+
+   or
+
+   ```bash
+   yarn start
+   ```
+
+## 📄 License
+
+The [MIT License](./LICENSE) (MIT). Please see License File for more information.
+
+## 🔎 See Also
+
+[GitHub profile](https://github.com/OKE225)
